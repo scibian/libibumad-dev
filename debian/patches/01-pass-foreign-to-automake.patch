@@ -1,0 +1,15 @@
+Description: Add "foreign" option to automake so autoreconf works
+ Avoid complaints about missing NEWS, README, etc.
+Author: Roland Dreier <rbd@debian.org>
+---
+--- a/configure.in
++++ b/configure.in
+@@ -6,7 +6,7 @@
+ AC_CONFIG_AUX_DIR(config)
+ AC_CONFIG_MACRO_DIR(config)
+ AM_CONFIG_HEADER(config.h)
+-AM_INIT_AUTOMAKE
++AM_INIT_AUTOMAKE([foreign])
+ 
+ AC_SUBST(RELEASE, ${RELEASE:-${VERSION}})
+ AC_SUBST(TARBALL, ${TARBALL:-${PACKAGE}-${VERSION}.tar.gz})

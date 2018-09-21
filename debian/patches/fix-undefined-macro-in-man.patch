@@ -1,0 +1,43 @@
+Description: Fix undefined macro in man pages
+ Some man pages have errors from man that the macro `nl' is not defined.
+ Use the `br' macro instead.
+ .
+ To test this for yourself you can use the following command:
+ .
+     LC_ALL=en_US.UTF-8 MANROFFSEQ='' MANWIDTH=80 \
+         man --warnings -E UTF-8 -l -Tutf8 -Z <file> >/dev/null
+Author: Benjamin Drung <benjamin.drung@profitbricks.com>
+
+--- a/man/umad_get_ca.3
++++ b/man/umad_get_ca.3
+@@ -8,7 +8,7 @@
+ .B #include <infiniband/umad.h>
+ .sp
+ .BI "int umad_get_ca(char " "*ca_name" ", umad_ca_t " "*ca" );
+-.nl
++.br
+ .BI "int umad_release_ca(umad_ca_t " "*ca" );
+ .fi
+ .SH "DESCRIPTION"
+--- a/man/umad_get_port.3
++++ b/man/umad_get_port.3
+@@ -8,7 +8,7 @@
+ .B #include <infiniband/umad.h>
+ .sp
+ .BI "int umad_get_port(char " "*ca_name" ", int " "portnum" ", umad_port_t " "*port" );
+-.nl
++.br
+ .BI "int umad_release_port(umad_port_t " "*port" );
+ .fi
+ .SH "DESCRIPTION"
+--- a/man/umad_init.3
++++ b/man/umad_init.3
+@@ -8,7 +8,7 @@
+ .B #include <infiniband/umad.h>
+ .sp
+ .BI "int umad_init(void);
+-.nl
++.br
+ .BI "int umad_done(void);
+ .fi
+ .SH "DESCRIPTION"

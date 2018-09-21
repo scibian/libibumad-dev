@@ -1,0 +1,5 @@
+# watch control file for uscan
+version=3
+
+https://www.openfabrics.org/downloads/management/libibumad-(.*)\.(?:tar.gz|tar.bz2|tar.xz)
+

@@ -1,0 +1,45 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: libibumad
+Upstream-Contact: Sasha Khapyorsky <sashak@voltaire.com>
+                  Shahar Frank <shahar@voltaire.com>
+                  Hal Rosenstock <halr@voltaire.com>
+Source: https://www.openfabrics.org/downloads/management
+
+Files: *
+Copyright: 2004-2008 Voltaire, Inc.
+           2014 Intel Corporation.
+License: OpenIB.org-BSD or GPL-2
+
+Files: debian/*
+Copyright: 2008 Genome Research Ltd
+           2008 Guy Coates <gmpc@sanger.ac.uk>
+           2016-2018 System Fabric Works, Inc. <info@systemfabricworks.com>
+License: GPL-2
+
+License: OpenIB.org-BSD
+ Redistribution and use in source and binary forms, with or
+ without modification, are permitted provided that the following
+ conditions are met:
+ .
+     - Redistributions of source code must retain the above
+       copyright notice, this list of conditions and the following
+       disclaimer.
+ .
+     - Redistributions in binary form must reproduce the above
+       copyright notice, this list of conditions and the following
+       disclaimer in the documentation and/or other materials
+       provided with the distribution.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS
+ BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+ ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+License: GPL-2
+ On Debian systems, the full text of the GNU General Public License
+ version 2 can be found in the file `/usr/share/common-licenses/GPL-2'.
+
