@@ -1,12 +1,15 @@
 Source: libibumad
 Priority: extra
-Maintainer: Brian T. Smith <bsmith@systemfabricworks.com>
+Maintainer: Scibian Project <packaging@scibian.org>
 Build-Depends: debhelper (>= 9),
                dh-autoreconf,
                dpkg-dev (>= 1.13.19),
 Standards-Version: 3.9.6
 Section: libs
 Homepage: https://www.openfabrics.org/downloads/management/
+Vcs-Git: https://github.com/scibian/libibumad.git
+Vcs-Browser: https://github.com/scibian/libibumad
+
 
 Package: libibumad-dev
 Section: libdevel
