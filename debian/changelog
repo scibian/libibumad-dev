@@ -1,4 +1,4 @@
-libibumad (1.3.10.2-5ifs+deb8+opa10.8u1) jessie; urgency=medium
+libibumad (1.3.10.2-5ifs+deb8sci8+opa10.8u1) scibian8+opa10.8; urgency=medium
 
   * build libibumad for scibian8+opa10.8
 
