@@ -14,6 +14,7 @@ Files: debian/*
 Copyright: 2008 Genome Research Ltd
            2008 Guy Coates <gmpc@sanger.ac.uk>
            2016-2018 System Fabric Works, Inc. <info@systemfabricworks.com>
+           2019 Scibian Project <legal@scibian.org>
 License: GPL-2
 
 License: OpenIB.org-BSD
